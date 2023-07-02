@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sintonizzarevbs/presentation/utils/sintonizzarevbs_theme.dart';
+import 'package:sintonizzarevbs/presentation/utils/sontonizzarevbs_theme.dart';
+
 
 class StkBox extends StatelessWidget {
   final IconData icon;
@@ -39,7 +40,7 @@ class StkBox extends StatelessWidget {
       child: Ink(
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(sizeBorderRadius ?? 12),
-          color: primaryColor ?? sintonizzarevbs.primaryColor,
+          color: primaryColor ?? Sintonizzarevbs.primaryColor,
           boxShadow: activeShadow ? [
             BoxShadow(
               color: Colors.grey.shade500,

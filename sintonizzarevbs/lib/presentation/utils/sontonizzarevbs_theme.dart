@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class sintonizzarevbs {
+class Sintonizzarevbs {
   static ThemeData sintonizzarevbsTheme = ThemeData(
     useMaterial3: true,
     scaffoldBackgroundColor: primaryColor
